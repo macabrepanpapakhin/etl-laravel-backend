@@ -12,7 +12,7 @@ use Illuminate\Mail\Mailables\Attachment;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Support\Facades\Storage;
 
-class OrderShipped extends Mailable
+class Acceptance extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -37,7 +37,7 @@ class OrderShipped extends Mailable
     public function envelope()
     {
         return new Envelope(
-           
+            from: new Address('macabrepanpapakhin@gmail.com', 'Jerry'),
             subject: 'Accepted to Earn To Learn Program',
         );
     }

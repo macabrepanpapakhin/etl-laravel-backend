@@ -16,5 +16,5 @@ Eum cumque quos laudantium quis esse saepe amet sit fugit! Obcaecati nulla
  <a href="https://example.com" ><button style="color: blue; font-size: 22px; padding:16px;">Register</button></a>
  <br />
 Sincerely, <br />
-<h3>Thomas (SE)</h3>
+<h3>Alexander Beatson</h3>
 
